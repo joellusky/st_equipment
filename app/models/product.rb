@@ -1,3 +1,4 @@
 class Product < ActiveRecord::Base
-	has_many :trip_images, dependent: :destroy
+	has_many :product_images, dependent: :destroy
+	accepts_nested_attributes_for :product_images
 end

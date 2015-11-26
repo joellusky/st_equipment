@@ -3,4 +3,15 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.background {background-color: gray}
+.background {
+	background-color: gray
+}
+
+#footer{
+  position: relative;
+  height: 50px;
+  background-color: black
+}
+.push {
+	height: 50px;
+}
