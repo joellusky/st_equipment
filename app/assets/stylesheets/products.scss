@@ -7,11 +7,32 @@
 	background-color: gray
 }
 
-#footer{
+#footer {
   position: relative;
   height: 50px;
   background-color: black
 }
+
+.white-background {
+	background-color: #A9A9A9
+}
+
 .push {
 	height: 50px;
+}
+
+.logo-font {
+	font-family: 'Orbitron', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+.ptop10px {
+	padding-top: 10px;
+}
+
+.pright1px {
+	padding-right: 10px;
 }
